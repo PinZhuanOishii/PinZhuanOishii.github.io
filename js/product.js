@@ -1,5 +1,6 @@
 let mask = document.querySelector(".mask");
 let read_More_Btn = document.querySelectorAll(".read_More");
+let product_Image = document.querySelectorAll(".product_Image");
 let close_Btn = document.querySelectorAll(".product_Detail_Close");
 let product_Detail = document.querySelectorAll(".product_Detail_Info_Box");
 
@@ -10,6 +11,11 @@ for (let i = 0; i < product_Detail.length; i++) {
     });
 }
 
+for (let i = 0; i < read_More_Btn.length; i++) {
+    product_Image[i].addEventListener("click", () => {
+        show_Detail_Handler(i);
+    });
+}
 
 for (let i = 0; i < read_More_Btn.length; i++) {
     read_More_Btn[i].addEventListener("click", () => {
