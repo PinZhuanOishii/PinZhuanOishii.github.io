@@ -6,6 +6,10 @@
     margin: 0 auto;
 }
 
+.purchase_Link {
+    color: #a00b0b;
+}
+
 .product_Info_Box {
     font-size: 0;
     display: flex;

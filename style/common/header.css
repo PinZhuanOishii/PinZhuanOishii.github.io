@@ -140,6 +140,8 @@ header {
 }
 
 .logo_Loader_Box {
+    cursor: pointer;
+
     width: 60px;
     height: 60px;
 

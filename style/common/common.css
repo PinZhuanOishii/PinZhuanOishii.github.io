@@ -5,6 +5,10 @@ body {
     background-position: 0% 100%;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 .mark_Text {
     color: #ff0000;
 }
