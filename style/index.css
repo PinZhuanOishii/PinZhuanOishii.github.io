@@ -36,7 +36,7 @@
   font-size: 36px;
   color: white;
   margin: 0;
-  /* padding-top: 30px; */
+  padding-top: 30px;
 }
 
 .product a {
@@ -63,7 +63,6 @@
   justify-content: center;
   flex-wrap: wrap;
   width: calc(100vw - 5px);
-  /* height: 800px; */
   margin: 0 auto;
 }
 
@@ -103,10 +102,8 @@
 }
 
 
-
 .left_description {
   width: 50%;
-  /* background-color: blue; */
 }
 
 .left_description img {
@@ -114,7 +111,6 @@
   height: 100%;
   object-fit: cover;
 }
-
 
 
 @media screen and (max-width:1920px) {
@@ -154,6 +150,10 @@
 
   .right1 h2 {
     font-size: 20px;
+  }
+
+  .right1 h2 {
+    font-size: 44px;
   }
 
   .product_box h2 {
