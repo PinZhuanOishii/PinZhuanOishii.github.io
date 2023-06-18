@@ -1,0 +1,146 @@
+.cooking_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 1200px;
+  margin: 130px auto 75px;
+}
+
+.cooking_Title {
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.cooking_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 32px;
+}
+
+.cooking_image {
+  box-shadow: 0 0 10px 1px #333333;
+}
+
+.cooking_image1 {
+  width: 1200px;
+  height: 500px;
+  background-image: url('../image/cooking_img1.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.cooking_image2 {
+  width: 1200px;
+  height: 500px;
+  background-image: url('../image/cooking_img2.jpg');
+  background-size: cover;
+  background-position: center center;
+  margin: 20px 0px;
+}
+
+
+.cooking_image3 {
+  width: 1200px;
+  height: 500px;
+  background-image: url('../image/cooking_img3.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.cooking_image4 {
+  width: 1200px;
+  height: 500px;
+  background-image: url('../image/cooking_img4.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.cooking_image5 {
+  width: 1200px;
+  height: 500px;
+  background-image: url('../image/cooking_img5.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+  color: rgb(255, 200, 0);
+}
+
+hr {
+  width: 100%;
+  height: 5px;
+
+  border-radius: 100px;
+  background-color: #bbbbbb;
+
+  margin-top: 50px;
+}
+
+
+@media screen and (max-width:1920px) {}
+
+@media screen and (max-width:1200px) {
+  .cooking_list {
+    width: 90%;
+  }
+
+  .cooking_image {
+    width: 1000px;
+    height: 417px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .cooking_image {
+    width: 780px;
+    height: 325px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .cooking_image {
+    width: 600px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .cooking_list {
+    flex-direction: column;
+  }
+
+  .cooking_image {
+    width: 480px;
+    height: 200px;
+  }
+}
+
+
+@media screen and (max-width:500px) {
+  .cooking_image {
+    width: 384px;
+    height: 160px;
+  }
+}
+
+
+@media screen and (max-width:400px) {
+  .cooking_image {
+    width: 300px;
+    height: 125px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .cooking_image {
+    width: 240px;
+    height: 100px;
+  }
+}

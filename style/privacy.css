@@ -1,0 +1,73 @@
+.privacy {
+    padding: 50px;
+}
+
+.privacy_Comment {
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: justify;
+    -webkit-text-stroke: 0.75px;
+}
+
+.privacy_Content {
+    margin: 20px 0px;
+}
+
+.privacy_Content_Title {
+    color: #ff8f26;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Noto Sans TC', sans-serif;
+
+    display: flex;
+}
+
+.privacy_Content_Description {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Noto Sans TC', sans-serif;
+
+    -webkit-text-stroke: 0.25px;
+}
+
+.privacy_Content_Description_List {
+    margin-left: -15px;
+}
+
+.privacy_Content_Description_List li {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Noto Sans TC', sans-serif;
+
+    -webkit-text-stroke: 0.25px;
+
+    margin: 10px 0;
+}
+
+/* screen */
+@media screen and (max-width:1920px) {
+    .privacy {
+        margin-top: 100px;
+    }
+}
+
+/* Nest Hub */
+@media screen and (max-width:1200px) {
+    .privacy {
+        margin-top: 100px;
+    }
+}
+
+/* laptop */
+@media screen and (max-width:1000px) {
+    .privacy {
+        margin-top: 150px;
+    }
+}
+
+/* phone */
+@media screen and (max-width:600px) {
+    .privacy {
+        margin-top: 100px;
+    }
+}

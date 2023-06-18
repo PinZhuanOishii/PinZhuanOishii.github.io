@@ -1,0 +1,180 @@
+.AboutPinZhuan {
+    margin-top: 150px;
+}
+
+.story {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 50px;
+    padding: 25px;
+
+    box-shadow: 0 0 10px 3px #a0a0a0;
+    background-color: rgba(200, 200, 200, 0.3);
+}
+
+.story_Title {
+    width: 100%;
+
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Noto Sans TC', sans-serif;
+
+    box-shadow: 0 0 10px 3px #a0a0a0;
+    background-color: rgb(255, 255, 178);
+    border-left: 5px solid #a00b0b;
+    padding: 1vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    position: relative;
+    left: -25px;
+}
+
+.story_Title div {
+    display: inline-block;
+}
+
+.story_Box {
+    width: 100%;
+    height: 300px;
+
+    padding: 2vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story_Image {
+    height: 95%;
+
+    box-shadow: 0 0 10px 3px #a0a0a0;
+
+    margin: 1vw;
+}
+
+.story_Content_Box {
+    height: 95%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 1vw;
+}
+
+.story_Content {
+    width: 100%;
+    max-height: 95%;
+
+    color: #3e3e3e;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: 'Noto Sans TC', sans-serif;
+
+    padding: 1vh;
+    text-align: justify;
+
+    overflow: auto;
+}
+
+/* screen 1 */
+@media screen and (max-width:1920px) {
+    .AboutPinZhuan {
+        margin-top: 150px;
+    }
+
+    .story {
+        margin: 50px 18vw;
+    }
+
+    .story_Box {
+        height: 360px;
+    }
+
+    .story_Content_Box {
+        height: 95%;
+    }
+}
+
+/* screen 2 */
+@media screen and (max-width:1600px) {
+    .AboutPinZhuan {
+        margin-top: 150px;
+    }
+
+    .story_Box {
+        height: 350px;
+    }
+
+    .story_Content_Box {
+        height: 95%;
+    }
+}
+
+/* laptop1 */
+@media screen and (max-width:1400px) {
+    .AboutPinZhuan {
+        margin-top: 200px;
+    }
+
+    .story {
+        margin: 50px 6vw;
+    }
+}
+
+/* laptop2 */
+@media screen and (max-width:1000px) {
+    .AboutPinZhuan {
+        margin-top: 150px;
+    }
+
+    .story {
+        margin: 50px;
+    }
+
+    .story_Box {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .story_Image {
+        width: 100%;
+    }
+
+    .rev {
+        flex-direction: column-reverse;
+    }
+}
+
+/* phone */
+@media screen and (max-width:600px) {
+    .AboutPinZhuan {
+        margin-top: 150px;
+    }
+
+    .story {
+        margin: 50px 25px;
+    }
+
+    .story_Box {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .story_Image {
+        width: 100%;
+    }
+
+    .rev {
+        flex-direction: column-reverse;
+    }
+}

@@ -1,0 +1,78 @@
+.purchase {
+    padding: 50px;
+}
+
+.purchase_Comment {
+    font-size: 24px;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: justify;
+    -webkit-text-stroke: 0.75px;
+}
+
+.purchase_Content {
+    margin: 20px 0px;
+}
+
+.purchase_Content_Title {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Noto Sans TC', sans-serif;
+
+    background-color: #ff8f26;
+
+    padding: 10px;
+    margin: 10px 0px;
+
+    display: inline-flex;
+}
+
+.purchase_Content_Description {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Noto Sans TC', sans-serif;
+
+    -webkit-text-stroke: 0.25px;
+}
+
+.purchase_Content_Description_List {
+    margin-left: -15px;
+}
+
+.purchase_Content_Description_List li {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Noto Sans TC', sans-serif;
+
+    -webkit-text-stroke: 0.25px;
+
+    margin: 10px 0;
+}
+
+/* screen */
+@media screen and (max-width:1920px) {
+    .purchase {
+        margin-top: 100px;
+    }
+}
+
+/* Nest Hub */
+@media screen and (max-width:1200px) {
+    .purchase {
+        margin-top: 100px;
+    }
+}
+
+/* laptop */
+@media screen and (max-width:1000px) {
+    .purchase {
+        margin-top: 150px;
+    }
+}
+
+/* phone */
+@media screen and (max-width:600px) {
+    .purchase {
+        margin-top: 100px;
+    }
+}
