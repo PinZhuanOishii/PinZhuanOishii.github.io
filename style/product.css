@@ -485,7 +485,7 @@ td {
 /* laptop 1 */
 @media screen and (max-width:1200px) {
     .notification {
-        margin-top: 150px;
+        margin-top: 180px;
     }
 
     .product_Info {
