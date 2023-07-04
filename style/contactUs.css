@@ -1,82 +1,89 @@
-/* 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-} */
 .cards {
     display: flex;
     max-width: 1500px;
     margin: 150px auto 0;
     text-align: center;
     align-items: center;
+
     padding: 30px;
     font-family: 'Montserrat', sans-serif;
 }
-.cards h2 .header{
+
+.cards h2 .header {
     font-size: 40px;
     margin: 0 0 30px 0;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
 .services {
-    /* width: 300px; */
     flex: 1;
     display: flex;
     align-items: center;
-  
+
 }
-.content{
+
+.content {
     display: flex;
     flex-wrap: wrap;
-    flex: 1;
     margin: 20px;
     padding: 20px;
+
     border: 2px solid black;
     border-radius: 4px;
     transition: all .3s ease;
     background-color: rgba(245, 245, 220, 0.75);
 }
-.content .fab{
+
+.content .fab {
     font-size: 70px;
     margin: 16px 0;
 }
+
 .content .fa-envelope {
     font-size: 70px;
     margin: 16px 0;
 }
-.content > *{
+
+.content>* {
     flex: 1 1 100%;
 }
-.content:hover{
+
+.content:hover {
     color: white;
 }
+
 .content:hover a {
     border-color: white;
     background: white;
 }
+
 .content-1:hover {
     border-color: #1463ca;
     background: #1463ca;
 }
-.content-1:hover a{
+
+.content-1:hover a {
     cursor: pointer;
     color: #1463ca;
 }
+
 .content-2:hover {
     border-color: #00b800;
     background: #00b800;
 }
-.content-2:hover a{
+
+.content-2:hover a {
     cursor: pointer;
     color: #00b800;
 }
+
 .content-3:hover {
     border-color: #FF0000;
     background: #FF0000;
 }
-.content-3:hover a{
+
+.content-3:hover a {
     cursor: pointer;
     color: #FF0000;
 }
@@ -85,10 +92,12 @@
     border-color: #F07001;
     background: #F07001;
 }
-.content-4:hover a{
+
+.content-4:hover a {
     cursor: pointer;
     color: #F07001;
 }
+
 .services .content .fa-facebook:hover,
 .services .content .fa-facebook:active {
     cursor: auto;
@@ -109,18 +118,20 @@
     -webkit-text-stroke: #00b800 0px;
 }
 
-.content h2{
+.content h2 {
     width: 100%;
     font-size: 30px;
     margin: 16px 0;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-.content p{
+
+.content p {
     font-size: 17px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-.content a{
+
+.content a {
     margin: 22px 0;
     background: black;
     color: white;
@@ -131,21 +142,28 @@
     border-radius: 25px;
     transition: .3s ease;
 }
-.content a:hover{
+
+.content a:hover {
     border-radius: 4px;
 }
 
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
     .cards {
+        padding: 0;
         display: flex;
         flex-direction: column;
-        
     }
-    .services{
 
-        display: flex;
+    .services {
+        width: 60%;
+
         flex-direction: column;
         align-items: stretch;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .services {
+        width: 80%;
     }
 }
